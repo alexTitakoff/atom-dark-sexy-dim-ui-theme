@@ -9,10 +9,11 @@
 
 // BASE COLORS
 @black: #0e1112;
+//@black-dark: #090b0d;
 @black-dark: #090b0d;
 @white: #d4d7d6;
 @grey: #4d5a5e;
-@grey-dark: #1f2326;
+@grey-dark: lighten(@black, 3%);
 @grey-light: #6d8086;
 
 // THEME COLORS
@@ -60,7 +61,8 @@
 @tree-view-background-color: lighten(@black, 3%);
 @tree-view-border-color: @base-border-color;
 @tree-view-highlight: lighten(@black, 10%);
-@tree-view-header-color: #090b0d;
+//@tree-view-header-color: #090b0d;
+@tree-view-header-color: lighten(@black, 3%);
 @tree-view-header-text-color: @white;
 @tree-view-text-color: @white;
 
@@ -129,7 +131,7 @@
 @component-line-height: 25px;
 
 // INPUT
-@input-background-color: @black-dark;
+@input-background-color: lighten(@black, 3%);
 @input-text-color: @white;
 @input-border-color: @base-border-color;
 
