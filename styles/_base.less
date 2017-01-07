@@ -1,3 +1,12 @@
+// подсветка всей темы
+
+// atom-panel-container.left atom-panel.left, atom-panel-container.right atom-panel.left {
+//     border: none;
+//     opacity: 0.7;
+// }
+
+
+
 .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
   outline: 0;
 }
@@ -11,6 +20,59 @@
     margin-top: 5px;
 }
 
+//
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.status-modified, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.status-modified, atom-panel-container.left .entries.list-tree .file.entry.list-item.status-modified, atom-panel-container.right .entries.list-tree .file.entry.list-item.status-modified {
+  color: @tab-text-color !important;
+  transition: 0.3s linear all;
+
+
+}
+
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.status-modified:hover, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.status-modified:hover, atom-panel-container.left .entries.list-tree .file.entry.list-item.status-modified:hover, atom-panel-container.right .entries.list-tree .file.entry.list-item.status-modified:hover {
+//  color: @blue !important;
+
+transition: 0.3s linear all;
+
+}
+
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.status-modified .list-item::before {
+  color: @blue !important;
+
+}
+
+atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.status-modified .list-item::before {
+  color: @blue !important;
+}
+
+atom-panel-container.left .entries.list-tree .file.entry.list-item.status-modified .list-item::before {
+  color: @blue !important;
+}
+
+ atom-panel-container.right .entries.list-tree .file.entry.list-item.status-modified .list-item::before {
+  color: @blue !important;
+}
+
+
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item.selected::before, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item.selected::before, atom-panel-container.left .entries.list-tree .file.entry.list-item.selected::before, atom-panel-container.right .entries.list-tree .file.entry.list-item.selected::before {
+    background: #242c2f;
+    border-left: solid 3px #519aba;
+    height: 35px;
+}
+
+
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item span, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item span, atom-panel-container.left .entries.list-tree .file.entry.list-item span, atom-panel-container.right .entries.list-tree .file.entry.list-item span {
+  //opacity: 0.6;
+  color: rgb(142, 142, 142);
+  transition: 0.2s linear all;
+}
+
+atom-panel-container.left .entries.list-tree .directory.entry.list-nested-item span:hover, atom-panel-container.right .entries.list-tree .directory.entry.list-nested-item:hover span:hover, atom-panel-container.left .entries.list-tree .file.entry.list-item span:hover, atom-panel-container.right .entries.list-tree .file.entry.list-item span:hover {
+  color: rgb(203, 203, 203);
+  transition: 0.2s linear all;
+}
+
+
+
 atom-workspace {
   font-size: @font-size;
   background-color: @app-background-color;
@@ -19,3 +81,44 @@ atom-workspace {
     font-family: @seti-font-family;
   }
 }
+
+
+
+
+
+.directory {
+  opacity: 1;
+  transition: 0.3s linear all;
+  &:hover {
+    //color: @blue !important;
+    // opacity: 1;
+    // transition: 0.3s linear all;
+  }
+}
+
+
+
+.file {
+  // opacity: 0.9;
+  // transition: 0.3s linear all;
+  // &:hover {
+  //   //color: @blue !important;
+  //   opacity: 1;
+  //   transition: 0.3s linear all;
+  // }
+}
+
+
+//иконки в табах
+
+.file-icons-tab-pane-icon atom-pane .tab-bar .tab .title:before {
+  display: none;
+}
+
+//
+// .file-icons-tab-pane-icon atom-pane .tab-bar .tab .title:before, .icon-file-text:before, .icon-file-binary:before, .theme-flatland-dark-ui .icon-file-text:before, .theme-flatland-dark-ui .icon-book:before {
+//   display: none;
+// }
+
+
+//иконки в табах
