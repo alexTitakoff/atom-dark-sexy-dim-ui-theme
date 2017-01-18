@@ -5,7 +5,7 @@ This theme is a fork of [seti-themes](https://github.com/jesseweed/seti-ui).
 It will be created for a productive night coding.
 Low contrast is good for vitality of your eyes.
 
-**Recommend** use with compatible [syntax theme](https://github.com/alexiTakov/atom-dark-sexy-dim-theme-syntax)
+**Recommend** use with compatible [syntax theme](https://atom.io/themes/atom-dark-sexy-dim-theme-syntax)
 ***
 
 ###Sublime Text 3 analogy theme
