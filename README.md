@@ -22,7 +22,7 @@ Low contrast is good for vitality of your eyes.
 
 
 ---------------------------------------------------------
-### HTML
+### Screenshots
 ![Screenshot](https://github.com/alexiTakov/atom-dark-sexy-dim-ui-theme/blob/master/screenshots/Settings%20—%20%7E-.atom-packages%20Atom%2C%20Today%20at%2000.29.35.png?raw=true)
 ![Screenshot](https://github.com/alexiTakov/atom-dark-sexy-dim-ui-theme/blob/master/screenshots/%7E-.atom-packages%20Atom%2C%20Today%20at%2000.31.37.png?raw=true)
 
