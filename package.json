@@ -11,9 +11,10 @@
     "syntax",
     "theme"
   ],
-  "repository": "https://github.com/alexiTakov/atom-dark-sexy-dim-theme-syntax",
+  "repository": "https://github.com/alexiTakov/atom-dark-sexy-dim-ui-theme",
   "license": "MIT",
-  "engines": {
+  "engines":
+  {
     "atom": ">=1.0.0 <2.0.0"
   }
 }
