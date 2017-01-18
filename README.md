@@ -16,8 +16,8 @@ Low contrast is good for vitality of your eyes.
 ### Recent changes
 * low contrast
 * finder
-* active siedbar tab
-* hover siderbar
+* active sidebar tab
+* hover sidebar
 
 
 
