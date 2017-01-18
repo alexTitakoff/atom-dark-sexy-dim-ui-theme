@@ -1,7 +1,7 @@
 {
   "name": "atom-dark-sexy-dim-ui-theme",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "It will be created for a productive night coding. Low contrast is good for vitality of your eyes.",
   "keywords": [
     "dark",
@@ -13,8 +13,7 @@
   ],
   "repository": "https://github.com/alexiTakov/atom-dark-sexy-dim-ui-theme",
   "license": "MIT",
-  "engines":
-  {
+  "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
 }
